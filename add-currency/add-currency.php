@@ -20,9 +20,9 @@ add_filter("adverts_currency_list", "add_adverts_currency");
 function add_adverts_currency($list) {
     
     $list[] = array(
-        "code"=>"BWP", // ISO 4217 currency code, see http://en.wikipedia.org/wiki/ISO_4217
-        "sign"=>"Pula", // currency prefix or postfix
-        "label"=>"Botswana pula" // currency long name
+        "code"=>"NGN", // ISO 4217 currency code, see http://en.wikipedia.org/wiki/ISO_4217
+        "sign"=>"N", // currency prefix or postfix
+        "label"=>"Nigeria Naira" // currency long name
     );
     
     return $list;
